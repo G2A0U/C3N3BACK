@@ -111,7 +111,7 @@ async function experimentInit() {
   text_welcome = new visual.TextStim({
     win: psychoJS.window,
     name: 'text_welcome',
-    text: 'Bienvenue dans la tâche de "n3-back" \n\nVous devez vérifier si la lettre présente correspond à celle présentée deux lettres auparavant.\n \nexemple : S - N - B - M - B\n\nEn cas de correspondance, vous devez appuyer sur la gâchette droite. \n\n\nAppuyer sur la gâchette droite pour commencer.\n',
+    text: 'Bienvenue dans la tâche de "n3-back" \n\nVous devez vérifier si la lettre présente correspond à celle présentée trois lettres auparavant.\n \nexemple : S - N - B - S – M – N\n\nEn cas de correspondance, vous devez appuyer sur la gâchette droite. \n\n\nAppuyer sur la gâchette droite pour commencer.\n',
     font: 'Open Sans',
     units: undefined, 
     pos: [0, 0], height: 0.05,  wrapWidth: undefined, ori: 0.0,
